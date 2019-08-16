@@ -1,0 +1,39 @@
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Roboto', sans-serif; }
+
+
+/* HEADER 
+--------------------------------------*/
+.wrapper-header {
+    height: 30vh;
+    width: 100px auto;
+    padding: 15px;
+    background: #4a4d50;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 5px -2px grey;
+} 
+
+@media screen and (min-width: 600px) {
+    .wrapper-header {
+        height: 15vh;
+    }
+}
+/* fOOTER
+-----------------------------------------*/
+footer {
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(77, 75, 75);
+    padding: 25px;
+    margin: 0;
+}
+
+
+

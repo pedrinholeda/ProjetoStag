@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>{{title}}</h1>
+<div mat-dialog-content>
+  <p>Nome:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="modalData.name">
+  </mat-form-field>
+  <p>Telefone</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="modalData.tell">
+  </mat-form-field>
+  <p>Email</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="modalData.email">
+  </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button mat-button [mat-dialog-close]="modalData" cdkFocusInitial>{{title}}</button>
+</div>
